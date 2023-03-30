@@ -1,0 +1,19 @@
+{
+    "name": "gexo/test-task",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gexayr Melkonyan",
+            "email": "gexayrmelkonyan@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpstan/phpstan": "^1.10",
+        "phpstan/phpstan-strict-rules": "^1.5",
+        "squizlabs/php_codesniffer": "^3.7"
+    }
+}
